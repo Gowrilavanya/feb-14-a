@@ -1,0 +1,26 @@
+#program to find no. Of digits
+
+x=int(input("Enter a number:"))
+nod=0
+while(x>0):
+    nod=nod+1
+    x=x//10
+print('no. of digits in a given number=',nod)
+
+
+
+Output1:
+Enter a number:
+
+563 
+
+no. of digits in a given number= 3
+
+Output2:
+Enter a number:
+
+90876543 
+
+no. of digits in a given number= 8
+
+
